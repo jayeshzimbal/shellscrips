@@ -1,0 +1,36 @@
+#!/bin/bash
+
+#! is called a shebang.
+It tells Linux which interpreter should execute the script.
+/bin/bash means use the Bash (Bourne Again Shell) interpreter.
+Bash is an advanced shell with many extra features.
+Supports:
+Arrays
+Functions
+Command history
+Tab completion
+Arithmetic operations
+Advanced scripting features
+
+
+#!/bin/sh
+
+#! is the shebang.
+
+It is simpler and more portable than Bash.
+Supports basic shell scripting features.
+On many Linux systems, /bin/sh is a link to another shell (such as dash or bash).
+
+
+#!/bin/bash = Powerful shell for scripting and automation
+#!/bin/sh = Simple, portable shell for basic scripts
+
+
+set -x ==== it shows the cmd name in output which output is for which cmd .
+set -e ==== it use for if there is an error in any line just exit without execute.
+set -o pipefail     # fail if any command in a pipeline fails  (it don't allow to jump it show the error )
+if there is any cmd bypass the error that time pipefail cmd works error cant bypass.
+
+set -exo this is the combination of this three cmds set -x + set -0 + set -e = set -exo
+
+awk =
