@@ -33,4 +33,33 @@ if there is any cmd bypass the error that time pipefail cmd works error cant byp
 
 set -exo this is the combination of this three cmds set -x + set -0 + set -e = set -exo
 
-awk =
+awk = #explanation   example awk -f "" '{print $2}'
+
+ps -ef = # explanation example ps -ef | awk -f "" '{print $2}'
+
+curl =#eplanation  example 
+
+wget = #explanation example 
+
+culr and wget ==
+
+wc =#explanation example 
+ wc -l = explain 
+grep -o <<<"" === explain  
+
+vim -r text.txt = #explaination
+
+what is the soft link and hardlink file with example and advntages 
+
+what is the difference between break and continue statement with example 
+
+what are the diff type of loop and when to use 
+
+is bash dynamic or statically type and why 
+
+explain about network trouble shooting utility
+
+how will you sort the list of name into the file 
+
+how will you manage logs of a system that generate huge log file everyday 
+
